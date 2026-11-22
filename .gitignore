@@ -1,0 +1,19 @@
+# Ambiente virtual e caches do Python/Pytest
+venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Variáveis de ambiente com caminhos locais
+.env
+
+# Dados, livros, planilhas e relatórios locais (nunca versionar)
+*.epub
+*.pdf
+*.xlsx
+*.csv
+*.rar
+*.zip
+*.txt
+!requirements.txt
+.vscode/
